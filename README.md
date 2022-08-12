@@ -1,41 +1,94 @@
-# Website
+# Deploy Docusaurus website to GitHub Pages using GitHub Actions
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This repository is an example of deploying a Docusaurus website to GitHub Pages using GitHub Actions.
 
-### Installation
+## Configuring the GitHub repository
 
-```
-$ yarn
-```
+It uses the _new_ GitHub Pages experience with GitHub Actions to deploy the website.
 
-### Local Development
+Enable this experience in _GitHub.com -> Repository -> Settings -> Pages -> Build and deployment -> Source_ by selecting _GitHub Actions_ instead of the legacy _Deploy from a branch_ option.
 
-```
-$ yarn start
-```
+In _GitHub.com -> Repository -> Settings -> Environments_ you should see a GitHub Environment named `github-pages`.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Configuring Docusaurus
 
-### Build
+Generate a Docusuarus website using the following command:
 
-```
-$ yarn build
+```shell
+yarn create docusaurus <folder-name> classic --typescript
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Make the following changes to the `docusaurus.config.js` configuration file:
 
-### Deployment
+1. Create the constants `organizationName` and `projectName`
+   ```javascript
+   const organizationName = "<github-organization-name>";
+   const projectName = "<repository-name>";
+   ```
+1. Set the URL
+   ```javascript
+   const config = {
+     // (...)
+     url: `https://${organizationName}.github.io`,
+   };
+   const baseUrl = /${projectName}`;
+   ```
+1. Configure the base URL
+   ```javascript
+   const config = {
+     // (...)
+     baseUrl: `/${projectName}/`,
+   };
+   ```
+1. Set the `organizationName` and `projectName` options
 
-Using SSH:
+   ```javascript
+   const organizationName = "<github-organization-name>";
+   const projectName = "<repository-name>";
 
+   const config = {
+     // (...)
+     organizationName,
+     projectName,
+   };
+   ```
+
+## Adding a GitHub Actions deployment workflow
+
+Use a GitHub Actions workflow template for GitHub Pages from the [`actions/starter-workflows`](https://github.com/actions/starter-workflows) repository. Place it in `.github/workflows/<workflow-name>.yml`.
+
+Add steps for building the website before the GitHub Pages actions are executed and specify the `path` to the `actions/upload-pages-artifact`:
+
+```yaml
+# (...)
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      # 👇 Build steps
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+          cache: yarn
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile --non-interactive
+      - name: Build
+        run: yarn build
+      # 👆 Build steps
+      - name: Setup Pages
+        uses: actions/configure-pages@v1
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          # 👇 Specify build output path
+          path: build
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
 ```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
