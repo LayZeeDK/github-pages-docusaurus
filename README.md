@@ -31,7 +31,7 @@ Make the following changes to the `docusaurus.config.js` configuration file:
      // (...)
      url: `https://${organizationName}.github.io`,
    };
-   const baseUrl = /${projectName}`;
+   const baseUrl = /${projectName}/`;
    ```
 1. Configure the base URL
    ```javascript
