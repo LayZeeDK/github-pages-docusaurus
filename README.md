@@ -53,6 +53,30 @@ Make the following changes to the `docusaurus.config.js` configuration file:
    };
    ```
 
+1. Configure the blog and docs edit URLs
+   ```javascript
+   const config = {
+     // (...)
+     presets: [
+       [
+         "classic",
+         /** @type {import('@docusaurus/preset-classic').Options} */
+         ({
+           // (...)
+           docs: {
+             // (...)
+             editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
+           },
+           blog: {
+             // (...)
+             editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
+           },
+         }),
+       ],
+     ],
+   };
+   ```
+
 ## Adding a GitHub Actions deployment workflow
 
 Use a GitHub Actions workflow template for GitHub Pages from the [`actions/starter-workflows`](https://github.com/actions/starter-workflows) repository. Place it in `.github/workflows/<workflow-name>.yml`.
