@@ -4,13 +4,13 @@
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
-const organizationName = "LayZeeDK";
-const projectName = "github-pages-docusaurus";
+const organizationName = "MXCzkEVM";
+const projectName = "SupernodeV2-devdocs";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "MXC SupernodeV2 zkEVM",
+  tagline: "The next generation of IoT Web3",
   url: `https://${organizationName}.github.io`,
   baseUrl: `/${projectName}/`,
   onBrokenLinks: "throw",
