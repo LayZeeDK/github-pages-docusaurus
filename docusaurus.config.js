@@ -65,7 +65,8 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Docs",
+            label: "MXC zkEVM SupernodeV2 Docs",
+            src: "img/logo.svg",
           },
           {
             href: `https://github.com/${organizationName}/${projectName}`,

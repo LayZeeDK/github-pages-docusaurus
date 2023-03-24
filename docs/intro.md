@@ -2,46 +2,22 @@
 sidebar_position: 1
 ---
 
-# Tutorial Introa
+## Welcome to MXC zkEVM Supernode V2
 
-Let's discover **Docusaurus in less than 5 minutes**.
+MXC SupernodeV2 is a fully decentralized, Ethereum-equivalent Type 1 ZK-EVM ZK-Rollup built on [Arbitrum](https://arbitrum.io/)[Taiko ZK](https://taiko.xyz/)). 
 
-## Getting Started
+MXC is a Web3 project aimed at being the Ethereum of IoT. Our team is composed of experienced developers and blockchain experts who have a deep understanding of the Web3 industry.
 
-Get started by **creating a new site**.
+The MXC token is built on Arbitrum now as an IoT scaling solution, which offers more IoT usabilities like parking and garbage collection telemetry for Korea and New York government. The token is designed to be the next Ethereum of IoT to support sensor token offering and NFT issuance for real-world goods.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Use the Wannsee testnet
 
-### What you'll need
+All the instructions can be found under guides]. 
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Contribute to MXC
 
-## Generate a new site
+MXC is a fully open source and community driven project, check out our Discord to get started as a contributor!
 
-Generate a new Docusaurus site using the **classic template**.
+## Join the Discord
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+We're vibing out on Discord, come [join the community](hhttps://discord.com/invite/mxcfoundation)!
