@@ -62,7 +62,7 @@ const config = {
       navbar: {
         logo: {
           alt: "MXC",
-          src: "img/logo.svg",
+          src: "img/mxc.svg",
           to: "/docs/intro",
         },
         items: [
