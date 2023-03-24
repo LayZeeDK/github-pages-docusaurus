@@ -60,13 +60,16 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
+        logo: {
+          alt: "MXC",
+          src: "img/logo.svg",
+        },
         items: [
           {
             type: "doc",
             docId: "intro",
             position: "left",
             label: "MXC zkEVM SupernodeV2 Docs",
-            src: "img/logo.svg",
           },
           {
             href: `https://github.com/${organizationName}/${projectName}`,
