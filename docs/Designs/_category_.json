@@ -3,6 +3,6 @@
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "MXC aims to build a secure, decentralized, and permissionless rollup on EVM like Arbitrum, which requires publicly available block data to reconstruct the post-block state and for proof generation. Fast and efficient block creation and proposal processes are necessary for equal access to chain data and fair competition among proposers. This includes access to transaction fees and MEV."
   }
 }
