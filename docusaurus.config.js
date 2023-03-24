@@ -63,6 +63,7 @@ const config = {
         logo: {
           alt: "MXC",
           src: "img/logo.svg",
+          to: "/docs/intro",
         },
         items: [
           {
