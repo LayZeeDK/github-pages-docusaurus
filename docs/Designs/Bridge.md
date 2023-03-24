@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 
-# Bridge to Arbiturm
+# Bridge to L1/L2
 
 Add **Markdown or React** files to `src/pages` to create a **standalone page**:
 

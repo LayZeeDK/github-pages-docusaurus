@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# LPWAN Rollup
+# IoT LPWAN Rollup
 
 Companies can run their own LPWAN server that removed Admin for LPWAN Roll up
 

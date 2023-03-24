@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# MXC Supernode
+# MXC zkSupernode
 
 Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
 

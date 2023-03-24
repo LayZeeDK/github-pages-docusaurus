@@ -3,6 +3,14 @@ sidebar_position: 1
 ---
 # Executive Summary
 
+:::tip WIP
+
+This documentation is still a Work In Progress. Some topics have been discussed in greater depth, while others require additional clarification. Sections of this documentation might later be reorganized in order to achieve a better flow.
+
+If you are interested in learning about the basics of Zero-knowledge, EVM, and other fundamental concepts behind MXC zkEVM, check out MXC [Twitter](https://twitter.com/MXCfoundation).
+
+:::
+
 ## Welcome to MXC zkEVM Supernode V2
 
 MXC SupernodeV2 is a fully decentralized, Ethereum-equivalent Type 1 ZK-EVM ZK-Rollup built on [Arbitrum](https://arbitrum.io/) using [Taiko ZK](https://taiko.xyz/). 

@@ -4,52 +4,25 @@ sidebar_position: 2
 
 # Proving MXC Blocks
 
-Documents are **groups of pages** connected through:
 
-- a **sidebar**
-- **previous/next navigation**
-- **versioning**
+## Zero-Knowledge Provers
 
-## Create your first Doc
+The purpose of proving blocks is to allow bridges to withdraw state out of the rollup. 
 
-Create a Markdown file at `docs/hello.md`:
+To rely on some state that happened inside of the rollup, a bridge will want a proof that everything was done correctly. On MXC zkEVM you can run a Supernode as a prover and prove blocks, permissionlessly. 
 
-```md title="docs/hello.md"
-# Hello
+This means that you can examine the proposed blocks on the MXCzkL1 contract, and generate proofs for them. Currently, any prover can create proofs for proposed blocks. This means that the number of "fork choices" has no upper bound, because we don't know what is the correct state transition yet. 
 
-This is my **first Docusaurus document**!
-```
+Only first prover with a valid proof of the correct fork choice (state transition) will receive the reward of MXC.
 
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
+## Zero-Knowledge States
 
-## Configure the Sidebar
+There are three states that a block can be in on MXC zkEVM:
+- Proposed
+- Proved
+- Verified
 
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
+For the visual learners here is a visualization of the three stages (proposed -> proved -> verified)
 
-Add metadata to customize the sidebar label and position:
+![States](/img/mxc.svg)
 
-```md title="docs/hello.md" {1-4}
----
-sidebar_label: 'Hi!'
-sidebar_position: 3
----
-
-# Hello
-
-This is my **first Docusaurus document**!
-```
-
-It is also possible to create your sidebar explicitly in `sidebars.js`:
-
-```js title="sidebars.js"
-module.exports = {
-  tutorialSidebar: [
-    {
-      type: 'category',
-      label: 'Tutorial',
-      // highlight-next-line
-      items: ['hello'],
-    },
-  ],
-};
-```
