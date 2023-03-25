@@ -24,5 +24,5 @@ There are three states that a block can be in on MXC zkEVM:
 
 For the visual learners here is a visualization of the three stages (proposed -> proved -> verified)
 
-![States](/img/mxc.svg)
+![States](/img/proving.gif)
 
