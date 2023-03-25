@@ -24,7 +24,7 @@ Furthermore, the [Taiko bridge](https://taiko.xyz/docs/concepts/bridging/cross-c
 
 The bridge, a technological masterpiece, comprises a set of intelligent contracts and a frontend web app that leverages cutting-edge technology to enable the seamless transfer of testnet MXC and ERC-20 tokens between Arbitrum and MXC zkEVM. This is a remarkable feat that highlights the advanced capabilities of zkEVM, particularly its signal service, which can be utilized to develop bridges with ease.
 
-It is worth noting that this bridge is just one of the many possibilities built on top of zkEVM, and it serves as a testament to the platform's immense potential. In fact, anyone can leverage the signal service to build bridges, which underscores the flexibility and scalability of this innovative platform. If you're curious about the bridge, you can explore its features and functionalities by [trying it out yourself](wannsee).
+It is worth noting that this bridge is just one of the many possibilities built on top of zkEVM, and it serves as a testament to the platform's immense potential. In fact, anyone can leverage the signal service to build bridges, which underscores the flexibility and scalability of this innovative platform. If you're curious about the bridge, you can explore its features and functionalities by [trying it out yourself](https://wannsee).
 
 
 ## How to bridge ETH
