@@ -15,7 +15,7 @@ LPWAN Protocol fulfils:
 2. Submit IoT data on-chain
 3. Holding the mining pool from block rewards
 4. All data API are exposed
-5. Push the firmware OTA for the miners
+5. Push the firmware updates for the miners
 6. Removed Sudo, all the transactions done by Smart Contract
 7. Submit the mining data on-chain
 8. To be included to MXC explorer for data up and down
