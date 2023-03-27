@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# MXC contributing guide
+# MXC Contributing Guide
 
 **Table of contents:**
 

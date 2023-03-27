@@ -14,18 +14,18 @@ Additionally, as the criteria and design of the airdrop as a whole was intention
 
 Points earned on MXC zkEVM
 
- 1. Create Initial Sensor Offerings
-2. Create IoT NFTs
-3. Trade Sensor Tokens
-4. Trade IoT NFTs
+ 1. Create Initial Sensor Offerings (Name of the token created should contain an IoT sensor)
+2. Create IoT NFTs (Name of the NFT created should be a real-world object)
+3. Run MXC zkEVM Supernodes
+4. Creating a MXC zkEVM wallet
  5. Conducted more than four transactions or interacted with more than four different smart contracts
  6. Conducted more than ten transactions or interacted with more than ten different smart contracts
  7. Conducted more than 25 transactions or interacted with more than 25 different smart contracts
  8. Conducted more than 100 transactions or interacted with more than 100 different smart contracts
- 9. Conducted transactions exceeding in the aggregate $10,000 in value
- 10. Conducted transactions exceeding in the aggregate $50,000 in value
- 11. Conducted transactions exceeding in the aggregate $250,000 in value
- 12. Run MXC zkEVM Supernodes
+ 9. Conducted Sensor Tokens/IoT NFTs transactions exceeding in the aggregate $10,000 in value
+ 10. Conducted Sensor Tokens/IoT NFTs transactions exceeding in the aggregate $50,000 in value
+ 11. Conducted Sensor Tokens/IoT NFTs transactions exceeding in the aggregate $250,000 in value
+
 
 Points earned on DataHighway.com 
 
