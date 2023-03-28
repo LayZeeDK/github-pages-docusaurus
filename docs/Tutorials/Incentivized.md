@@ -13,6 +13,8 @@ MXC Token is already listed on Coinbase, Kraken, Crypto.com and Binance.us, ther
 The purpose of the Wannsee testnet is to bring the largest Web3 IoT network that MXC community built in 177 countries to MXC zkEVM and Arbitrum ecosystem.
 
 ## Token properties:
+
+|----------------------------|------------------------------------------|
 | Initial supply cap         | 2.6 billion                              |
 | Launched date              | 2018 August                              |
 | Inflation/Deflation rate   | Same as Ethereum as the gas is MXC Token |
@@ -130,14 +132,22 @@ Points earned on DataHighway.com
         <td>7,250</td>
     </tr>
     <tr>
-        <td>12 or more</td>
+        <td>12 - 18</td>
         <td>10,250</td>
+    </tr>
+    <tr>
+        <td>18 - 25</td>
+        <td>20,000</td>
+    </tr>
+    <tr>
+        <td>25 - 30</td>
+        <td>40,000</td>
     </tr>
 </table>
 
 <br />
 
-As described earlier, points scored before and after announcement were weighted differently. Points scored before announcement were worth twice as much as points scored after -- as a result any points scored after announcement resulted in half as much of an allocation per point shown in the table above. If an address only became fully eligible (minimum of three points) post-announcement, all points scored counted as post-announcement points. Thus, the minimum airdrop entitlement is 625 tokens, half of the minimum entitlement in the table above; the maximum airdrop entitlement is 10250 tokens.
+As described earlier, points scored before and after announcement were weighted differently. Points scored before announcement were worth twice as much as points scored after -- as a result any points scored after announcement resulted in half as much of an allocation per point shown in the table above. If an address only became fully eligible (minimum of three points) post-announcement, all points scored counted as post-announcement points. Thus, the minimum airdrop entitlement is 625 tokens, half of the minimum entitlement in the table above; the maximum airdrop entitlement is 40000 tokens.
 
 **User protections:**
 
