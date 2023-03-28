@@ -14,6 +14,7 @@ The purpose of the Wannsee testnet is to bring the largest Web3 IoT network that
 
 ## Token properties:
 
+|                            |                                          |
 |----------------------------|------------------------------------------|
 | Initial supply cap         | 2.6 billion                              |
 | Launched date              | 2018 August                              |
@@ -71,7 +72,7 @@ Points earned on MXC zkEVM
  11. Conducted Sensor Tokens/IoT NFTs transactions exceeding in the aggregate $250,000 in value
  12. Minting Hexagon map NFT
  13. Creating MXC name service domain
- 14. **Claim the MOON token and send to the referrer person, no upper limit**
+ 14. **Claim the [MOON token](https://contract_addr) and send to the referrer person, no upper limit**
 
 
 
@@ -154,7 +155,7 @@ As described earlier, points scored before and after announcement were weighted 
 To prevent bots from taking advantage of the airdrop, a number of anti-Sybil rules were established:
 
  - If an airdrop recipient's wallet transactions have all occurred within a 48-hour period, **one point is subtracted**.
- - If an airdrop recipient's wallet balance is less than .005 ETH, **and** if the wallet hasn't interacted with more than one smart contract, **one point is subtracted**.
+ - If an airdrop recipient's wallet balance is less than 500 MXC, **and** if the wallet hasn't interacted with more than one smart contract, **one point is subtracted**.
  - If an airdrop recipient's wallet address has been identified as a Sybil address during the Hop protocol bounty program **the recipient is disqualified**. 
 
 Refer to [Sybil Hunting](https://github.com/mxczkevm/sybil-detection) to learn more about the Sybil mitigation methodology. Refer to our [Sybil accounts](https://github.com/mxczkevm/sybil-detection) concept document for a conceptual introduction to Sybil accounts.
