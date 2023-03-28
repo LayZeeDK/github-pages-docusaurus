@@ -10,6 +10,10 @@ To ensure seamless functionality, any brand of miner that wishes to participate 
 
 By implementing this decentralized network architecture, businesses can have greater control over their LPWAN server while maintaining the necessary security and operational standards. This approach offers a more secure, flexible, and cost-effective solution for businesses looking to streamline their IoT data management processes.
 
+A more detailed illustration is as follows:
+
+![LPWAN](/img/LPWAN.gif)
+
 ## MEPs
 
 MEP stands for MXC Evolution Proposal. Each MEP will be a proposal document providing information to the MXC zkEVM ecosystem and community.

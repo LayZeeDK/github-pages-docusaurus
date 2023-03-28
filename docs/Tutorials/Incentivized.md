@@ -4,9 +4,51 @@ sidebar_position: 1
 
 # Incentivized Testnet tasks
 
+:::caution THERE IS NO PRESALE
+
+MXC Token is already listed on Coinbase, Kraken, Crypto.com and Binance.us, there is no Presale or Public sale.
+
+:::
+
+The purpose of the Wannsee testnet is to bring the largest Web3 IoT network that MXC community built in 177 countries to MXC zkEVM and Arbitrum ecosystem.
+
+## Token properties:
+| Initial supply cap         | 2.6 billion                              |
+| Launched date              | 2018 August                              |
+| Inflation/Deflation rate   | Same as Ethereum as the gas is MXC Token |
+| Minting/burning mechanism  | L2 Smart Contract                        |
+| Bridgeable to Ethereum L1? | Yes                                      |
+| Tokens launch on           | MXC zkEVM                                |
+| Airdrop snapshot           | TBD                                      |
+| Claiming started           | After Announcement                       |
+| Claiming ends              | After Announcement                       |
+
+
+## Token allocation & airdrop distribution:
+
+| Percentage of initial supply | Number of tokens | Allocated to                                                  |
+|------------------------------|------------------|---------------------------------------------------------------|
+| 40%                          | 1,065,986,320       | MXC DAO treasury                |
+| 30%                          | 799,489,740        | MXC DataDash App Users                                        |
+| 20%                          | 532,993,160        | Free unlocked circulation from 2019                           |
+| 10%                          | 266,496,580        | Users of the MXC zkEVM (via airdrop to user wallet addresses) |
+
+
+Up to 10% of the circulation will participate in the airdrop, when the MXC token price listed on Coinbase Pro reaches a certain threshold at the announced block height, it will open the more percentages like the following table shows:
+
+| Participation wallets | Total Percentage of MXC token |
+|-----------------------|-------------------------------|
+| Under $0.2            | 2%                           |
+| $0.2-0.5              | 4%                           |
+| $0.5-0.8              | 6%                           |
+| $0.8-1                | 8%                           |
+| Above $1              | 10%                          |
+
+
+
 ### User airdrop eligibility details
 
-A points system was used to determine the number of tokens that airdrop recipients can claim. Points criteria was focused primarily on MXC zkEVM; however, there was a small subset of criteria applied to activity on DataHighway.com. Points earned on DataHighway.com could either bring a user up to 4 points total, or give them one additional point if they had already scored 4 points or more on MXC zkEVM. You earn maximum one point per qualifying action performed before the snapshot date. Point scores were capped at 15.
+A points system was used to determine the number of tokens that airdrop recipients can claim. Points criteria was focused primarily on MXC zkEVM; however, there was a small subset of criteria applied to activity on DataHighway.com. Points earned on DataHighway.com could either bring a user up to 4 points total, or give them one additional point if they had already scored 4 points or more on MXC zkEVM. You earn maximum one point per qualifying action performed before the snapshot date. Point scores were capped at 30.
 
 Additionally, as the criteria and design of the airdrop as a whole was intentioned to reward early adopters, points scored (minimum of three) before announcement link (later available) are worth twice as much as points scored after.
 
@@ -25,6 +67,10 @@ Points earned on MXC zkEVM
  9. Conducted Sensor Tokens/IoT NFTs transactions exceeding in the aggregate $10,000 in value
  10. Conducted Sensor Tokens/IoT NFTs transactions exceeding in the aggregate $50,000 in value
  11. Conducted Sensor Tokens/IoT NFTs transactions exceeding in the aggregate $250,000 in value
+ 12. Minting Hexagon map NFT
+ 13. Creating MXC name service domain
+ 14. **Claim the MOON token and send to the referrer person, no upper limit**
+
 
 
 Points earned on DataHighway.com 
