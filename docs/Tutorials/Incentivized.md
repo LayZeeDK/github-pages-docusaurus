@@ -32,7 +32,7 @@ The purpose of the Wannsee testnet is to bring the largest Web3 IoT network that
 | Percentage of initial supply | Number of tokens | Allocated to                                                  |
 |------------------------------|------------------|---------------------------------------------------------------|
 | 40%                          | 1,065,986,320       | MXC DAO treasury                |
-| 30%                          | 799,489,740        | MXC DataDash App Users                                        |
+| 30%                          | 799,489,740        | MXC DataDash App Users from 2020                              |
 | 20%                          | 532,993,160        | Free unlocked circulation from 2019                           |
 | 10%                          | 266,496,580        | Users of the MXC zkEVM (via airdrop to user wallet addresses) |
 
