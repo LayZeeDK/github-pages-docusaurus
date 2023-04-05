@@ -8,9 +8,10 @@ sidebar_position: 1
 
 MXC Token is already listed on Coinbase, Kraken, Crypto.com and Binance.us, there is no Presale or Public sale.
 
+The purpose of the Wannsee testnet is to bring the largest Web3 IoT network that MXC community built in 177 countries from 2018 to MXC zkEVM and Arbitrum ecosystem.
 :::
 
-The purpose of the Wannsee testnet is to bring the largest Web3 IoT network that MXC community built in 177 countries to MXC zkEVM and Arbitrum ecosystem.
+
 
 ## Token properties:
 
@@ -72,7 +73,7 @@ Points earned on MXC zkEVM
  11. Conducted Sensor Tokens/IoT NFTs transactions exceeding in the aggregate $250,000 in value
  12. Minting Hexagon map NFT
  13. Creating MXC name service domain
- 14. **Claim the [MOON token](https://contract_addr) and send to the referrer person, no upper limit**
+ 14. **Referall: Claim the [MOON token](https://contract_addr) and send to the referrer person, no upper limit**
 
 
 
