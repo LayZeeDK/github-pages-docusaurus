@@ -11,7 +11,7 @@ const projectName = "SupernodeV2-devdocs";
 const config = {
   title: "MXC SupernodeV2 zkEVM",
   tagline: "The next generation of IoT Web3",
-  url: `https://${organizationName}.github.io`,
+  url: `https://wannsee.mxc.com`,
   baseUrl: `/${projectName}/`,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
