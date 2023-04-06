@@ -24,10 +24,10 @@ The MXC token is built on Arbitrum now as an IoT scaling solution, which offers 
 All the instructions can be found under guides.
 
 Block explorer:
-[Wannsee explorer](https://wannsee)
+[Wannsee explorer](https://wannsee-explorer.mxc.com)
 
 And there is a quick link for the bridge: 
-[Wannsee bridge](https://wannsee)  
+[Wannsee bridge](https://wannsee-bridge.mxc.com)  
 
 ## Contribute to MXC
 

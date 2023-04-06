@@ -73,8 +73,23 @@ const config = {
             label: "MXC zkEVM SupernodeV2 Docs",
           },
           {
-            href: `https://github.com/${organizationName}/${projectName}`,
-            label: "GitHub",
+            href: `https://wannsee-explorer.mxc.com`,
+            label: "zkExplorer",
+            position: "right",
+          },
+          {
+            href: `https://wannsee-status.mxc.com`,
+            label: "Status",
+            position: "right",
+          },
+          {
+            href: `https://wannsee-bridge.mxc.com`,
+            label: "Bridge",
+            position: "right",
+          },
+          {
+            href: `https://wannsee-swap.mxc.com`,
+            label: "Swap",
             position: "right",
           },
         ],
