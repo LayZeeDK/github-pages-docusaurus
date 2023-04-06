@@ -73,7 +73,7 @@ Points earned on MXC zkEVM
  11. Conducted Sensor Tokens/IoT NFTs transactions exceeding in the aggregate $250,000 in value
  12. Minting Hexagon map NFT
  13. Creating MXC name service domain
- 14. **Referral: Claim the [MOON token](https://contract_addr) and send to the referrer person, no upper limit**
+ 14. **Referral: Claim the [MOON token](https://contract_addr) and send to the referrer person, no upper limit. The referee has to collect at least 10 points to make the moon token points count.**
 
 
 
