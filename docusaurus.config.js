@@ -12,7 +12,7 @@ const config = {
   title: "MXC SupernodeV2 zkEVM",
   tagline: "The next generation of IoT Web3",
   url: `https://wannsee.mxc.com`,
-  baseUrl: `/${projectName}/`,
+  baseUrl: `/`,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.ico",
