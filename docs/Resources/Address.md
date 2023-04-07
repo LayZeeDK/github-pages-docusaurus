@@ -38,10 +38,10 @@ sidebar_position: 2
 
 **MXC zkEVM** 
 
-| Name       | Symbol | Contract address                                                                                                                 |
-|------------|--------|----------------------------------------------------------------------------------------------------------------------------------|
-| Ride Token | RIDE   | [0x259444F838874C455fe5B5E8fdb858ecC2Ea7911](ttps://wannsee-explorer.mxc.com/address/0x259444F838874C455fe5B5E8fdb858ecC2Ea7911) |
-| Park Token | PARK   | [0x6774442e57A9c16da8c447c4b151a4D7f306d92f](ttps://wannsee-explorer.mxc.com/address/0x6774442e57A9c16da8c447c4b151a4D7f306d92f) |
+| Name       | Symbol | Contract address                                                                                                                  |
+|------------|--------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Ride Token | RIDE   | [0x259444F838874C455fe5B5E8fdb858ecC2Ea7911](https://wannsee-explorer.mxc.com/address/0x259444F838874C455fe5B5E8fdb858ecC2Ea7911) |
+| Park Token | PARK   | [0x6774442e57A9c16da8c447c4b151a4D7f306d92f](https://wannsee-explorer.mxc.com/address/0x6774442e57A9c16da8c447c4b151a4D7f306d92f) |
 
 ## MXC Supernode addresses
 | Name                | Address                                                                                                                     |
