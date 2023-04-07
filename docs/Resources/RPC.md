@@ -7,4 +7,4 @@ sidebar_position: 3
 | Network         | Chain ID | RPC URL                     | Symbol | Block Explorer URL                |
 |-----------------|----------|-----------------------------|--------|-----------------------------------|
 | Arbitrum Goerli | 421613   | https://rpc.sepolia.org     | ETH    | https://goerli.arbiscan.io/       |
-| MXC             | 5167003  | https://wannsee-rpc.mxc.com | MXC    | https://wannsee-explorer.mxc.com/ |
+| MXC Wannsee     | 5167003  | https://wannsee-rpc.mxc.com | MXC    | https://wannsee-explorer.mxc.com/ |
