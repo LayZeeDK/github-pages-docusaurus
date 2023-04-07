@@ -78,8 +78,8 @@ const config = {
             position: "right",
           },
           {
-            href: `https://wannsee-status.mxc.com`,
-            label: "Status",
+            href: `https://wannsee-nft.mxc.com`,
+            label: "NFT",
             position: "right",
           },
           {
@@ -90,6 +90,16 @@ const config = {
           {
             href: `https://wannsee-swap.mxc.com`,
             label: "Swap",
+            position: "right",
+          },
+          {
+            href: `https://wannsee-ens.mxc.com`,
+            label: "Hexagon Domain",
+            position: "right",
+          },
+          {
+            href: `https://github.com/${organizationName}/${projectName}`,
+            label: "Github",
             position: "right",
           },
         ],
