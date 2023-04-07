@@ -14,10 +14,10 @@ This guide help you connect your wallet to MXC (Wannsee testnet). There are two 
 
 ## Steps
 
-### 1. Add the Sepolia testnet
+### 1. Add the Arbitrum Goerli testnet
 Visit [https://chainid.network/](https://chainid.network/), search for "Arbitrum Goerli", and click the "Add Chain" button.
 
-### 2. Add the Taiko testnet
+### 2. Add the MXC Wannsee testnet
 Visit [https://chainid.network/](https://chainid.network/), search for "MXC Wannsee", and click the "Add Chain" button.
 
 ### 3. Add MXC, Ride, Park tokens to your wallet
