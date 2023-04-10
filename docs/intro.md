@@ -17,7 +17,10 @@ MXC SupernodeV2 is a fully decentralized, Ethereum-equivalent Type 1 ZK-EVM ZK-R
 
 MXC is a Web3 project aimed at being the Ethereum of IoT. Our team is composed of experienced developers and blockchain experts who have a deep understanding of the Web3 industry.
 
-The MXC token is built on Arbitrum now as an IoT scaling solution, which offers more IoT usabilities like parking and garbage collection telemetry for Korea and New York government. The token is designed to be the next Ethereum of IoT to support [sensor token offering](https://www.mxc.org/blog/introducing-initial-sensor-offering-iso) and [NFT issuance](https://medium.com/mxc/mxprotocol-enters-multi-billion-dollar-nfc-market-4bb4a4a3e382) for real-world goods.
+The MXC token is built on Arbitrum now as an IoT scaling solution, which offers more IoT usabilities like parking and garbage collection telemetry for Korea and New York government. The token is designed to be the next Ethereum of IoT to support [sensor token offering](https://www.mxc.org/blog/introducing-initial-sensor-offering-iso) and [NFT issuance](https://medium.com/mxc/mxprotocol-enters-multi-billion-dollar-nfc-market-4bb4a4a3e382) for [real-world goods](https://hackmd.io/3PYPxJ0nQ7W_YvEqtBGqzQ).
+
+![MXC](https://i.imgur.com/OnqcjdM.png)
+[MXCmapper.com](https://mxcmapper.com/)
 
 ## Use the Wannsee testnet
 
@@ -27,7 +30,7 @@ Block explorer:
 [Wannsee explorer](https://wannsee-explorer.mxc.com)
 
 And there is a quick link for the bridge: 
-[Wannsee bridge](https://wannsee-bridge.mxc.com)  
+[Wannsee bridge/faucet](https://wannsee-bridge.mxc.com)  
 
 ## Contribute to MXC
 
