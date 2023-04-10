@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Incentivized Testnet tasks
+# Incentivized Testnet Tasks
 
 :::caution THERE IS NO PRESALE
 

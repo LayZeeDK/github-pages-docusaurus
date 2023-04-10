@@ -30,4 +30,4 @@ Configure your Metamask/ Ethereum wallet
 
 ## RPC
 
-If you want to manually add all the configurations please visit [RPC]](docs/Resources/RPC)
+If you want to manually add all the configurations please visit [RPC](docs/Resources/RPC)
