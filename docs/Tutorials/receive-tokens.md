@@ -21,9 +21,9 @@ Visit one the faucets to receive ETH on Goerli:
   - #2 recommended: [https://goerlifaucet.com/](https://goerlifaucet.com/)
 
 ### 2. Bridge Goerli ETH to Arbitrum Goerli
-1. Make Sure You Have Enough Goerli ETH (least 0.2 ETH)
+1. Make sure you have enough Goerli ETH (least 0.2 ETH)
 2. Switch your wallet network to Goerli testnet or Arbitrum Goerli testnet
-3. Use the [Arbitrum offcial bridge](https://bridge.arbitrum.io/?l2ChainId=421613) to bridge your Goerli ETH to Arbitrum Goerli ETH.
+3. Use the [Arbitrum official bridge](https://bridge.arbitrum.io/?l2ChainId=421613) to bridge your Goerli ETH to Arbitrum Goerli ETH.
 
 ### 3. Receive MXC, Ride, Park Test Token
 
