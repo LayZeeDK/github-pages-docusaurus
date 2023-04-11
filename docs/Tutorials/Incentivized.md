@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Incentivized Testnet tasks
+# Incentivized Testnet Tasks
 
 :::caution THERE IS NO PRESALE
 
@@ -42,7 +42,7 @@ Up to 10% of the circulation will participate in the airdrop, when the MXC token
 
 | Participation wallets | Total Percentage of MXC token |
 |-----------------------|-------------------------------|
-| Under $0.2            | 2%                           |
+| Under $0.2            | 0.2%                           |
 | $0.2-0.5              | 4%                           |
 | $0.5-0.8              | 6%                           |
 | $0.8-1                | 8%                           |

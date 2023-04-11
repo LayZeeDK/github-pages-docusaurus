@@ -79,17 +79,17 @@ const config = {
           },
           {
             href: `https://wannsee-nft.mxc.com`,
-            label: "NFT",
+            label: "IoT NFT",
             position: "right",
           },
           {
             href: `https://wannsee-bridge.mxc.com`,
-            label: "Bridge",
+            label: "Bridge/Faucet",
             position: "right",
           },
           {
             href: `https://wannsee-swap.mxc.com`,
-            label: "Swap",
+            label: "IoT Swap",
             position: "right",
           },
           {
