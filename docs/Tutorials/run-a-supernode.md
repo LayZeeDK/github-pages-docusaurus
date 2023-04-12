@@ -1,15 +1,15 @@
 ---
-title: Run a node
-sidebar_position: 4
+title: Run a supernode
+sidebar_position: 5
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-This guide will walk you through the process of operating a MXC node via [simple-mxc-node](https://github.com/MXCzkEVM/simple-mxc-node). You will be able to:
+This guide will walk you through the process of operating a MXC supernode via [simple-mxc-node](https://github.com/MXCzkEVM/simple-mxc-node). You will be able to:
 
-- Run a MXC node easily from the command line on Windows, Mac, and Linux.
-- Run a MXC node regularly or as a prover.
+- Run a MXC supernode easily from the command line on Windows, Mac, and Linux.
+- Run a MXC supernode regularly or as a prover.
 - View a [Grafana](https://grafana.com/) dashboard which displays the node's status.
 
 ## Prerequisites
@@ -22,7 +22,9 @@ This guide will walk you through the process of operating a MXC node via [simple
 ## Steps
 
 ### Staking MXC on MXCL1 contract
-_Coming soon_
+```
+...
+```
 
 ### Clone simple-mxc-node
 ```sh
@@ -30,7 +32,7 @@ git clone https://github.com/MXCzkEVM/simple-mxc-node
 cd simple-mxc-node
 ```
 
-### Configure your node (required)
+### Configure your supernode (required)
 
 First, copy the `.env.sample` to a new file `.env`:
 
@@ -60,57 +62,59 @@ Finally, set the following environment variables:
 - L1_ENDPOINT_HTTP
 - L1_ENDPOINT_WS
 
+:::caution
 You can get a Arbiturm L1 endpoint from a few places,
 [QuickNode](https://www.quicknode.com/endpoints) are popular RPC providers. 
+:::
 
 **Make sure you select the RPC as Arbiturm Goerli testnet, and not Ethereum mainnet**.
 
-### Enable your node as a prover (optional)
+### Enable your supernode as a prover (optional)
 
-See [enable a prover](/docs/guides/enable-a-prover) for more information.
+See [enable a prover](/docs/Tutorials/enable-a-prover) for more information.
 
-### Start a node
-
+### Start a supernode
+:::caution
 It may take some time to synchronize from the genesis block. You can monitor this progress through logs, or in the local grafana dashboard and see the latest L2 chain status in the [MXC Wannsee block explorer](https://wannsee-explorer.mxc.com/).
-
-Make sure Docker is running and then run the following command to start the node. If you want to run it in the background, please add the `-d` flag (`docker compose up -d`).
+:::
+Make sure Docker is running and then run the following command to start the supernode. If you want to run it in the background, please add the `-d` flag (`docker compose up -d`).
 
 ```sh
 docker compose up
 ```
 
-To run the node in the background (detached mode), use the `-d` flag:
+To run the supernode in the background (detached mode), use the `-d` flag:
 
 ```sh
 docker compose up -d
 ```
 
-### Stop a node
+### Stop a supernode
 
-This command shuts down the node, but will keep all volumes, so next time you restart the node, it won't need to synchronize from the genesis again.
+This command shuts down the supernode, but will keep all volumes, so next time you restart the supernode, it won't need to synchronize from the genesis again.
 
 ```sh
 docker compose down
 ```
 
-### Remove a node
+### Remove a supernode
 
-These commands will completely remove the node by removing all volumes used by each container:
+These commands will completely remove the supernode by removing all volumes used by each container:
 
 ```sh
 docker compose down -v
 rm -f .env
 ```
 
-### Update a node
+### Update a supernode
 
-Update the `simple-mxc-node` Docker images:
+Update the `simple-mxc-supernode` Docker images:
 
 ```sh
 docker compose pull
 ```
 
-### View the node's logs
+### View the supernode's logs
 
 To view the Docker logs, the following commands can be ran:
 
@@ -138,7 +142,7 @@ This shows the CPU/MEM USAGE % and consumption of your machine's resources (add 
 docker stats
 ```
 
-### View the node's status dashboard
+### View the supernode's status dashboard
 
 A [Grafana](https://grafana.com/) dashboard with a [Prometheus](https://prometheus.io/) datasource is also included to display the L2 execution engine's real time status. You can visit it at [http://localhost:3000/d/L2ExecutionEngine/l2-execution-engine-overview?orgId=1&refresh=10s](http://localhost:3000/d/L2ExecutionEngine/l2-execution-engine-overview?orgId=1&refresh=10s).
 
@@ -147,12 +151,12 @@ A [Grafana](https://grafana.com/) dashboard with a [Prometheus](https://promethe
 
 ## Troubleshooting
 
-### Node warning logs
+### Supernode warning logs
 You can ignore any WARN logs.
 
-### Node error logs
+### Supernode error logs
 #### `error: L1_STAKE_AMOUNT`
-You need to stake 5000 MXC on MXCL1 contract to run a node as a proposer.
+You need to stake 5000 MXC on MXCL1 contract to run a supernode as a proposer.
 
 #### `error: L1_ID`
 The block that you want to prove has already been verified, you can ignore this.
@@ -161,7 +165,7 @@ The block that you want to prove has already been verified, you can ignore this.
 This block has been proven by someone else, but its not verified yet, you can ignore it.
 
 #### `Fatal: Failed to register the Ethereum service: database contains incompatible genesis`
-Try to remove the node with `docker compose down -v` and then try again.
+Try to remove the supernode with `docker compose down -v` and then try again.
 
 #### `Unhandled trie error: missing trie node`
 You can ignore this error, it doesn't affect you and goes away after a while.
