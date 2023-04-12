@@ -28,4 +28,4 @@ Verify you have some prover logs:
 - `✅ Valid block proven` just means a proposed block was successfully proved on MXCL1 (by anyone).
 
 ## Troubleshooting
-Consult [Run a node - Troubleshooting](/docs/Tutorials/run-a-node#troubleshooting) for common issues.
+Consult [Run a node - Troubleshooting](/docs/Tutorials/run-a-supernode#troubleshooting) for common issues.
