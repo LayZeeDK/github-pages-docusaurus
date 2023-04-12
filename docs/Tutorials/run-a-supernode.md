@@ -14,7 +14,6 @@ This guide will walk you through the process of operating a MXC supernode via [s
 
 ## Prerequisites
 
-- Staking **5000 MXC** at least on MXCL1 contract to run a node as a proposer. 
 - Reserve some extra MXC as a fee for future proposed blocks.
 - [Docker](https://docs.docker.com/engine/install/) is installed and **running**.
 - [Git](https://github.com/git-guides/install-git/) is installed.
@@ -22,9 +21,9 @@ This guide will walk you through the process of operating a MXC supernode via [s
 ## Steps
 
 ### Staking MXC on MXCL1 contract
-```
-...
-```
+Staking Test MXC Token [here](https://wannsee-bridge.mxc.com/#/stake)
+![stake](./img/stake.png)
+
 
 ### Clone simple-mxc-node
 ```sh
