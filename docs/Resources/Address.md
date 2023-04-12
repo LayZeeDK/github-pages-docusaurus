@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## Protocol contracts
 
-**Arbitrum**
+**Arbitrum Goerli**
 
 | Contract name  | Contract address                                                                                                            |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------|
@@ -16,7 +16,7 @@ sidebar_position: 2
 | MXCL1          | [0xecA2Cd0E14B4dc88F804b159fd2f88a9a90E9c37](https://goerli.arbiscan.io/address/0xecA2Cd0E14B4dc88F804b159fd2f88a9a90E9c37) |
 | TokenVault     | [0x5d4f05D6CAD0dcE40a53326e8c2d508aE066f397](https://goerli.arbiscan.io/address/0x5d4f05D6CAD0dcE40a53326e8c2d508aE066f397) |
 
-**MXC zkEVM**
+**MXC Wannsee**
 
 | Contract name  | Contract address                                                                                                                  |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------|
@@ -28,7 +28,7 @@ sidebar_position: 2
 
 ## ERC-20 token contracts
  
-**Arbitrum**
+**Arbitrum Goerli**
 
 | Name             | Symbol | Contract address                                                                                                          |
 |------------------|--------|---------------------------------------------------------------------------------------------------------------------------|
@@ -36,7 +36,7 @@ sidebar_position: 2
 | Park Token       | PARK   | [0xA7B73Cd2a33794fD3BD6e110615545Dcb598c723](https://goerli.arbiscan.io/token/0xa7b73cd2a33794fd3bd6e110615545dcb598c723) |
 | Test MXC Token   | MXC    | [0x7Ab0Bd16f86Bc84A97387F204A962C9df79b420A](https://goerli.arbiscan.io/token/0x7Ab0Bd16f86Bc84A97387F204A962C9df79b420A) |
 
-**MXC zkEVM** 
+**MXC Wannsee** 
 
 | Name       | Symbol | Contract address                                                                                                                  |
 |------------|--------|-----------------------------------------------------------------------------------------------------------------------------------|
