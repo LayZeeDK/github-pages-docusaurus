@@ -38,12 +38,14 @@ sidebar_position: 2
 
 **MXC Wannsee** 
 
-| Name       | Symbol | Contract address                                                                                                                  |
-|------------|--------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Ride Token | RIDE   | [0x259444F838874C455fe5B5E8fdb858ecC2Ea7911](https://wannsee-explorer.mxc.com/address/0x259444F838874C455fe5B5E8fdb858ecC2Ea7911) |
-| Park Token | PARK   | [0x6774442e57A9c16da8c447c4b151a4D7f306d92f](https://wannsee-explorer.mxc.com/address/0x6774442e57A9c16da8c447c4b151a4D7f306d92f) |
+| Name        | Symbol | Contract address                                                                                                                  |
+|-------------|--------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Ride Token  | RIDE   | [0x259444F838874C455fe5B5E8fdb858ecC2Ea7911](https://wannsee-explorer.mxc.com/address/0x259444F838874C455fe5B5E8fdb858ecC2Ea7911) |
+| Park Token  | PARK   | [0x6774442e57A9c16da8c447c4b151a4D7f306d92f](https://wannsee-explorer.mxc.com/address/0x6774442e57A9c16da8c447c4b151a4D7f306d92f) |
+| Moon Token  | MOON   | [0xe031013a7b7caf05fc20bdc49b731e3f2f0caffd](https://wannsee-explorer.mxc.com/address/0xe031013a7b7caf05fc20bdc49b731e3f2f0caffd) |
 
 ## MXC Supernode addresses
-| Name                | Address                                                                                                                     |
-|---------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| MXC's oracle prover | [0x67FBaF4596207631c12a437A0bB618066471B2dB](https://goerli.arbiscan.io/address/0x67fbaf4596207631c12a437a0bb618066471b2db) |
+| Name                    | Address                                                                                                                      |
+|-------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| MXC's oracle prover     | [0x67FBaF4596207631c12a437A0bB618066471B2dB](https://goerli.arbiscan.io/address/0x67fbaf4596207631c12a437a0bb618066471b2db)  |
+ | MXC's personal proposer | [0x245237D8cD588F0999c38331EBc97C337c007F2e](https://goerli.arbiscan.io/address/0x245237d8cd588f0999c38331ebc97c337c007f2e)  |
