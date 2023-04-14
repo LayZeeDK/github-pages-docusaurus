@@ -8,16 +8,16 @@ Here you can find all the L1/L2 contracts
 
 ## MXC L1
 
-All these can be found : https://taiko.xyz/docs/reference/contract-documentation/L1/ProofVerifier
+All these can be found : [https://wannsee.mxc.com/docs/Resources/contract-documentation/L1/ProofVerifier](/docs/Resources/contract-documentation/L1/ProofVerifier)
 
 ## MXC L2
-All these can be found : https://taiko.xyz/docs/reference/contract-documentation/L2/TaikoL2
+All these can be found : [https://wannsee.mxc.com/docs/Resources/contract-documentation/L2/MXCL2](/docs/Resources/contract-documentation/L2/MXCL2)
 
 ## Signal Service
 
-All these can be found :https://taiko.xyz/docs/reference/contract-documentation/signal/ISignalService
+All these can be found : [https://wannsee.mxc.com/docs/Resources/contract-documentation/signal/ISignalService](/docs/Resources/contract-documentation/signal/ISignalService)
 
 
 ## Bridge
 
-All these can be found :https://taiko.xyz/docs/reference/contract-documentation/bridge/Bridge
+All these can be found : [https://wannsee.mxc.com/docs/Resources/contract-documentation/bridge/IBridge](/docs/Resources/contract-documentation/bridge/IBridge)

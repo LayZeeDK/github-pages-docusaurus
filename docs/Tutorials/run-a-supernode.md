@@ -63,7 +63,10 @@ Finally, set the following environment variables:
 
 :::caution
 You can get a Arbiturm L1 endpoint from a few places,
-[QuickNode](https://www.quicknode.com/endpoints) are popular RPC providers. 
+[Infura](https://infura.io/)
+[alchemy](https://www.alchemy.com/)
+[QuickNode](https://www.quicknode.com/endpoints) 
+are popular RPC providers. 
 :::
 
 **Make sure you select the RPC as Arbiturm Goerli testnet, and not Ethereum mainnet**.
