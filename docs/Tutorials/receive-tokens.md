@@ -35,12 +35,12 @@ This guide will help you receive testnet tokens for Wannsee testnet and Arbitrum
 ### 3. Mint and Receive MXC, Ride or Park Test Token on Arbitrum Goerli
 - Select any of the tokens (MXC, Ride or Park) from the dropdown
 - Click on the Faucet button below the dropdown (The Faucet button is only visible if you haven't minted the selected token)
-- Onclick of the Faucet button, a modal will pop up, Click the Mint button
+- Onclick of the Faucet button, a modal will pop up, click the Mint button
 - Once minted, the Faucet button will disappear, you can select another token and repeat the process
 
 ![mint amd receive token](./img/step3/mintReceiveTokenOnArbitrum.png)
 
-### 4.  Bridge Token from Arbitrum to MXC Wannsee L2
+### 4.  Bridge Token from Arbitrum Goerli to MXC Wannsee L2
 - After minting token on Arbitrum Goerli network
 - Select one of the minted token to bridge
 - Input the amount of token to bridge
@@ -49,15 +49,15 @@ This guide will help you receive testnet tokens for Wannsee testnet and Arbitrum
 ![bridge to mxc wannsee](./img/step4/bridgeToken.png)
 
 ### 5.  Claim & Receive MXC Test Token on MXC Wannsee L2
-After bridging you will need to claim the you token(s) you bridged on MXC WannSee L2 and you need MXC token to pay for transaction
+After bridging you will need to claim the you token(s) you bridged on MXC WannSee L2 and you need MXC token to pay for the transaction
 - At the top right of the page beside your wallet address, Click the dropdown and select MXC Wannsee
-- Swicth network to MXC Wannsee
+- Switch network to MXC Wannsee
 - Click on the Faucet tab
 - Claim MXC token on MXC Wannsee L2
 
 ![claim mxc token](./img/step5/claimReceiveMXC.png)
 
-### 6. Claim the bridged token on MXC Wannsee L2
+### 6. Claim the bridged token(s) on MXC Wannsee L2
 Now that you have MXC token on MXC Wannsee L2, you can pay for the claim transaction
 - Click on the Transaction tab
 - You will see a list of transactions based on the number of bridge transactions you did
