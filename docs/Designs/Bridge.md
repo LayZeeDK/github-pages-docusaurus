@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Bridge to L1/L2
 
-Bridges are foundational for cross-chain users and applications. There are already Layer-2s like Arbiturm and Taiko that provides better user experiences thant ETH. Users might come to another application specific chain, such as MXC (a ZK-rollup IoT focused). To do this, they need to bridge over funds. Notoriously, bridging has been a dangerous operation. How do you make sure that this bridge is secure?
+Bridges are foundational for cross-chain users and applications. There are already Layer-2s like Arbiturm and Taiko that provides better user experiences than ETH. Users might come to another application specific chain, such as MXC (a ZK-rollup IoT focused). To do this, they need to bridge funds over. Notoriously, bridging has been a dangerous operation. How do you make sure that this bridge is secure?
 
 Let's explain bridging on MXC. We will answer the following questions:
 
