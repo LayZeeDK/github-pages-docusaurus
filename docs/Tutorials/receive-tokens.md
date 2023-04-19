@@ -49,7 +49,7 @@ This guide will help you receive testnet tokens for Wannsee testnet and Arbitrum
 ![bridge to mxc wannsee](./img/step4/bridgeToken.png)
 
 ### 5.  Claim & Receive MXC Test Token on MXC Wannsee L2
-After bridging you will need to claim the you token(s) you bridged on MXC WannSee L2 and you need MXC token to pay for the transaction
+After bridging you will need to claim the token(s) you bridged on MXC WannSee L2 and you need MXC token to pay for the transaction
 - At the top right of the page beside your wallet address, Click the dropdown and select MXC Wannsee
 - Switch network to MXC Wannsee
 - Click on the Faucet tab
@@ -58,7 +58,7 @@ After bridging you will need to claim the you token(s) you bridged on MXC WannSe
 ![claim mxc token](./img/step5/claimReceiveMXC.png)
 
 ### 6. Claim the bridged token(s) on MXC Wannsee L2
-Now that you have MXC token on MXC Wannsee L2, you can pay for the claim transaction
+Now that you have MXC token on MXC Wannsee L2, you can pay transaction fees and claim your bridged tokens
 - Click on the Transaction tab
 - You will see a list of transactions based on the number of bridge transactions you did
 - Click on the claim button of any of the tokens you want to claim
