@@ -22,11 +22,15 @@ This guide will help you deploy a smart contract to MXC (Wannsee testnet) using 
 ## Steps
 
 ### Create a project with Foundry
+To scafold a new foundry run:
 ```sh
 forge init hello_foundry && cd hello_foundry
 ```
 
 ### Deploy the contract
+:::info
+Ensure that Gas is 3000gWei to avoid Error: (code: -32000, message: contract creation code storage out of gas, data: None)!
+:::
 Replace `YOUR_PRIVATE_KEY` below with your private key which has some Test MXC Token on MXC Wannsee testnet.
 
 Deploy the contract located at `src/Counter.sol`.
