@@ -3,30 +3,66 @@ title: Receive Tokens
 sidebar_position: 3
 ---
 
-This guide will help you receive testnet tokens from the faucet(s).
+This guide will help you receive testnet tokens for Wannsee testnet and Arbitrum Goerli from the faucet(s).
 
 > MXC token is the gas token of MXC (Wannsee testnet). The MXC token is used for paying L2 gas fee.
 
+> Arbitrum Goerli ETH is used for gas/transaction fee on Arbitrum Goerli Testnet.
+
 > The Ride token and Park token are both test tokens that are used for testing the bridge and swap.
+
 
 ## Prerequisites
 
-- You have an Ethereum wallet address to accept the testnet tokens.
+- You should already have an Ethereum wallet address to accept the testnet tokens. Metamask wallet is preferred.
 
 ## Steps
 
-### 1. Receive Goerli ETH on Arbitrum Goerli
-![arbitrum faucet](./img/arbitrum-faucet.png)
+### 1. Navigate to Bridge & Connect Your Wallet
+- Make sure your wallet is on Arbitrum Goerli network
+- Navigate to the [MXC Wannsee bridge](https://wannsee-bridge.mxc.com)
+- Click on the Connect Wallet button to connect your wallet
 
+![connect wallet](./img/step1/connectWallet.png)
+### 2. Claim & Receive Goerli ETH on Arbitrum Goerli
+- Make sure you are on Arbitrum Goerli network
+- Click on the Faucet tab
+- Check I'm not a robot
+- Click the Claim 0.02 ETH button
 
-### 2. Receive MXC, Ride, Park Test Token
+![claim ETH from faucet](./img/step2/claimReceiveETH.png)
 
-Navigate to the [MXC Wannsee bridge](https://wannsee-bridge.mxc.com), select one of token from the dropdown, and click "Faucet" and Bridge to MXC Wannsee L2
+### 3. Mint and Receive MXC, Ride or Park Test Token on Arbitrum Goerli
+- Select any of the tokens (MXC, Ride or Park) from the dropdown
+- Click on the Faucet button below the dropdown (The Faucet button is only visible if you haven't minted the selected token)
+- Onclick of the Faucet button, a modal will pop up, Click the Mint button
+- Once minted, the Faucet button will disappear, you can select another token and repeat the process
 
-![receive token](./img/receive-token.png)
+![mint amd receive token](./img/step3/mintReceiveTokenOnArbitrum.png)
 
-### 3.  Receive MXC Test Token on MXC Wannsee L2
-![l2 faucet](./img/l2-faucet.png)
+### 4.  Bridge Token from Arbitrum to MXC Wannsee L2
+- After minting token on Arbitrum Goerli network
+- Select one of the minted token to bridge
+- Input the amount of token to bridge
+- Approve the token and bridge
 
-### 4. Claim the token on MXC Wannsee L2
-![brige to L2](./img/bridge-to-l2.png)
+![bridge to mxc wannsee](./img/step4/bridgeToken.png)
+
+### 5.  Claim & Receive MXC Test Token on MXC Wannsee L2
+After bridging you will need to claim the you token(s) you bridged on MXC WannSee L2 and you need MXC token to pay for transaction
+- At the top right of the page beside your wallet address, Click the dropdown and select MXC Wannsee
+- Swicth network to MXC Wannsee
+- Click on the Faucet tab
+- Claim MXC token on MXC Wannsee L2
+
+![claim mxc token](./img/step5/claimReceiveMXC.png)
+
+### 6. Claim the bridged token on MXC Wannsee L2
+Now that you have MXC token on MXC Wannsee L2, you can pay for the claim transaction
+- Click on the Transaction tab
+- You will see a list of transactions based on the number of bridge transactions you did
+- Click on the claim button of any of the tokens you want to claim
+
+![claim bridged tokens](./img/step6/claimBridgeToken.png)
+
+You have successfully received tokens on both Arbitrum Goerli, MXC Wannsee L2, and have also bridged tokens from Arbitrum to MXC Wannsee L2.
